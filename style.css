@@ -1,10 +1,15 @@
+.body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+/* HEADER */
 .header {
     background-color: #1F2937;
-    font-family: Roboto;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
-    max-width: 1500px;
+    padding-right: 25px;
+    padding-left: 25px;
     align-items: center;
 }
 
@@ -21,4 +26,66 @@ ul {
     gap: 16px;
     padding: 0px;
   }
+
+  /* HERO */
+.hero{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    gap:30px;
+}
+
+.hero-text {
+    width: 500px;
+}
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-image{
+    width: 500px;
+}
+
+.hero-image img {
+    border-radius: 15px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* EXPLORE */
+
+.explore, .explore-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+  .explore-info {
+    text-align: center;
+    max-width: 200px;
+    gap: 8px;
+  }
+  
+  .explore-items {
+    display: flex;
+    flex-direction: row;
+    gap: 52px
+  }
+  
+  .explore-items img {
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    height: 150px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
